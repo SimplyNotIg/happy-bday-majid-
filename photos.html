@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Memories - Majid</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Confetti library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+    <div class="birthday-container">
+
+        <h1>🎂 Some Memories 🎂</h1>
+
+        <p class="subtitle">
+            A few moments worth remembering 
+        </p>
+
+
+        <!-- PHOTO 1 -->
+        <div class="memory">
+            <img src="photos/photo1.jpg" alt="Memory 1">
+
+            <div class="memory-text">
+                <h2>Memory #1</h2>
+                <p>
+                    The first time we actually got a game together, 
+                    i still remember my exact emotions.
+                </p>
+            </div>
+        </div>
+
+
+        <!-- PHOTO 2 -->
+        <div class="memory">
+            <img src="photos/photo2.jpg" alt="Memory 2">
+
+            <div class="memory-text">
+                <h2>Memory #2</h2>
+                <p>
+                    Ofc cant forget the time you were
+                    caught playing brookhaven
+                </p>
+            </div>
+        </div>
+
+
+        <!-- PHOTO 3 -->
+        <div class="memory">
+            <img src="photos/photo3.jpg" alt="Memory 3" class="img3">
+
+            <div class="memory-text">
+                <h2>Memory #3</h2>
+                <p>
+                    sunset in skyblock
+                </p>
+            </div>
+        </div>
+
+
+        <!-- PHOTO 4 -->
+        <div class="memory">
+            <img src="photos/photo4.jpg" alt="Memory 4">
+
+            <div class="memory-text">
+                <h2>Memory #4</h2>
+                <p>
+                    you witnessing my death (very emotional)
+                </p>
+            </div>
+        </div>
+
+
+        <a href="majid  .html" class="back-button">
+            ← Back
+        </a>
+
+    </div>
+
+
+    <!-- Confetti -->
+    <script>
+        window.onload = function () {
+            confetti({
+                particleCount: 120,
+                spread: 100,
+                origin: { y: 0.6 }
+            });
+        };
+    </script>
+
+</body>
+</html>
